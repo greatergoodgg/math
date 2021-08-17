@@ -1,0 +1,43 @@
+body{
+    background-color: #0D1117;
+    color:white;
+    margin:0px;
+}
+div.header{
+    font-size: 55px;
+    background-color:#161B22;
+    width:100%;
+    margin:0px auto;
+    padding:0px;
+    height:75px;
+}
+div.footer{
+    background-color: #161b22;
+    text-align: center;
+    font-size:17px;
+}
+
+li.nav-item{
+    list-style-type: none;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    background-color:#8842d5;
+    height: 25;
+    padding-top:5px;
+    font-size:18px
+}
+#nav{
+    margin:0px;
+    padding:0px;
+}
+table.content{
+    width:100%;
+}
+td.tbl{
+    width:33.33%
+}
+#item{
+    padding: 2px;
+
+}
