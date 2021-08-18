@@ -10,6 +10,7 @@ div.header{
     margin:0px auto;
     padding:0px;
     height:75px;
+    text-align:center;
 }
 div.footer{
     background-color: #161b22;
