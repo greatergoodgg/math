@@ -42,3 +42,45 @@ td.tbl{
     padding: 2px;
 
 }
+.previous {
+    background-color:#161b22;
+    color: white;
+}
+.home{
+    background-color:#161b22;
+    color:white;
+}
+  
+.next {
+    background-color: #8842d5;
+    color: white;
+}
+#button{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+#button:hover{
+    background-color: #ddd;
+    color: black;
+}
+  
+/* a:hover {
+    background-color: #ddd;
+    color: black;
+} */
+.lonk{
+    text-decoration: none; color: white;
+}
+.lonk:hover{
+    background-color: white;
+    color:black;
+}
+#smol{
+    padding:3px;
+    margin-top:2px;
+    margin-bottom:2px;
+}
+#smol:hover{
+    border-radius: 5px;
+}
