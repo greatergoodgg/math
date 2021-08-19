@@ -6,6 +6,21 @@
 		</title>
 		<link rel="stylesheet" type="text/css" href="front.css">
 		<link rel="shortcut icon" type="image/jpg" href="logo.png"/>
+		<style>
+			body{
+				animation: transitionIn 0.75s;
+			}
+			@keyframes transitionIn {
+				from{
+					opacity: 0;
+					transform: rotateX(-10deg);
+				}
+				to{
+					opacity: 1;
+					transform: rotateX(0deg);
+				}
+			}
+		</style>
 	</head>
 	<body class="body">
 		<div class="header">
@@ -15,44 +30,47 @@
 				<img src="logo.png" width="40px" style="padding-top:10px;">
 			</p>
 		</div>
+		<br>
+		<br>
 		<div>
 			<ul id="nav">
 				<li class="nav-item">SA</li>
-				<li class="nav-item">SU</li>
 				<li class="nav-item">Miscellaneous</li>
 			  </ul>
 		</div>
 		<br>
 		<br>
 		<br>
-		<div>
+		<br>
+		<div style="margin-left: 10px;margin-right: 10px;">
 			<table class="content" align="center" style="border-bottom: 1px solid;font-size: 25px;">
 				<tr>
-					<td class="tbl">
-						<ul>
-							<li id="item"><a href="chapters/stlines/sa/1.pdf" target="_blank" rel="noopener noreferrer" class="lonk" id="smol">#01</a></li>
-							<!-- <li id="item"><a href="chapters/sets/sa/2.pdf" target="_blank" rel="noopener noreferrer" class="lonk" id="smol">#02</a></li>
-							<li id="item"><a href="chapters/sets/sa/3.pdf" target="_blank" rel="noopener noreferrer" class="lonk" id="smol">#03</a></li>
-							<li id="item"><a href="chapters/sets/sa/4.pdf" target="_blank" rel="noopener noreferrer" class="lonk" id="smol">#04</a></li>
-							<li id="item"><a href="chapters/sets/sa/5.pdf" target="_blank" rel="noopener noreferrer" class="lonk" id="smol">#05</a></li>
-							<li id="item"><a href="chapters/sets/sa/6.pdf" target="_blank" rel="noopener noreferrer" class="lonk" id="smol">#06</a></li> -->
-						</ul>
+					<td class="tbl" style="border-right:1px solid white;">
+						<table align="center" style="font-size: 35px;">
+							<tr>
+								<td><a href="chapters/stlines/sa/1.pdf" target="_blank" rel="noopener noreferrer" style="margin:15px 7.5px;" class="next" id="button">#01</a></td>
+								<!-- <td><a href="chapters/sets/sa/2.pdf" target="_blank" rel="noopener noreferrer" style="margin:15px 7.5px;" class="next" id="button">#02</a></td>
+								<td><a href="chapters/sets/sa/3.pdf" target="_blank" rel="noopener noreferrer" style="margin:15px 7.5px;" class="next" id="button">#03</a></td>
+								<td><a href="chapters/sets/sa/4.pdf" target="_blank" rel="noopener noreferrer" style="margin:15px 7.5px;" class="next" id="button">#04</a></td>
+								<td><a href="chapters/sets/sa/5.pdf" target="_blank" rel="noopener noreferrer" style="margin:15px 7.5px;" class="next" id="button">#05</a></td>
+							</tr>
+							<tr>
+								<td><a href="chapters/sets/sa/6.pdf" target="_blank" rel="noopener noreferrer" style="margin:15px 7.5px;" class="next" id="button">#06</a></td>
+							</tr> -->
+						</table>
 					</td>
-					<td class="tbl" style="border-left: 1px solid;border-right: 1px solid;">
-						<!-- <ul>
-							<li id="item"><a href="" class="lonk" id="smol">heel</a></li>
-							<li id="item"><a href="" class="lonk" id="smol">heel</a></li>
-						</ul> -->
-					</td>
-					<td class="tbl">
-						<ul>
-							
-						</ul>
+					<td class="tbl" style="border-left:1px solid white;">
+						<table align="center" style="font-size: 35px;">
+							<!-- <tr>
+								<td><a href="chapters/sets/misc/wordprob.pdf" target="_blank" rel="noopener noreferrer" style="margin:15px 7.5px;"class="next" id="button">Word Problems</a></td>
+							</tr> -->
+						</table>
 					</td>
 				</tr>
 			</table>
 			<br>
-			<div align="center">
+			<br>
+			<div align="center" style="font-size: 24px;">
 				<a href="9.html" class="previous" id="button"> &laquo; Previous</a>
 				&nbsp;&nbsp;&nbsp;&nbsp;
 				<a href="../index.html" class="home" id="button">Home</a>
@@ -60,6 +78,8 @@
 				<!-- <a href="11.html" class="next" id="button">Next &raquo;</a> -->
 			</div>
 		</div>
+		<br>
+		<br>
 		<br>
 		<div class="footer">
 			&lt Developed by Greater Good &#169 2021 / &gt
