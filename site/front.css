@@ -20,6 +20,10 @@ div.footer{
     background-color: #161b22;
     text-align: center;
     font-size:22px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 li.nav-item{
