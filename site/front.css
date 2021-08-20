@@ -52,15 +52,29 @@ td.tbl{
 .previous {
     background-color:#8842d5;
     color: white;
+    border: 3px solid transparent;
+    transition:0.15s
+}
+.previous:hover{
+    border: 3px solid #670cc9;
+    transition:0.3s;
 }
 .home{
-    background-color:#161b22;
+    background-color:#1f5052;
     color:white;
+    border: 3px solid transparent;
+    transition:0.15s
 }
-  
+
 .next {
     background-color: #8842d5;
     color: white;
+    border: 3px solid transparent;
+    transition:0.15s
+}
+.next:hover{
+    border: 3px solid #670cc9;
+    transition:0.3s;
 }
 #button{
     text-decoration: none;
@@ -68,14 +82,25 @@ td.tbl{
     padding: 8px 16px;
     border-radius: 10px;
     transition: color 1s;
-    transition: background-color 0.85s;
+    transition: 0.5s;
 }
 #button:hover{
-    background-color: #ddd;
-    color: black;
-    box-shadow: 0 0 10px #8842d5, 0 0 40px #8842d5, 0 0 80px #8842d5;
+    background-color: rgb(216, 175, 233);
+    color: #4c2377;
+    box-shadow: 0 0 20px #8842d5, 0 0 20px #8842d5, 0 0 20px #8842d5;
+    transition:0.3s
 }
-  
+#button:hover .home  {
+    background-color: #a8e3e7;
+    color: #1f5052;
+    box-shadow: 0 0 10px #34deeb, 0 0 10px #34deeb, 0 0 10px #34deeb;
+}
+
+.home:hover{
+    border: 3px solid #670cc9;
+    transition:0.15s
+}
+
 /* a:hover {
     background-color: #ddd;
     color: black;
