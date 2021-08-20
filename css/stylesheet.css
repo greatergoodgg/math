@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 body{
+    font-family: 'Klee One', cursive;
     background-color: #0D1117;
     color:white;
     margin:0px;
@@ -15,11 +18,14 @@ p.p1{
     text-align: center;
     color:rgb(52, 191, 216);
     font-size: 30;
+    margin:10px 0px 0px 0px;
 }
 table.nav{
     text-align: center;
     border-spacing: 10px;
     font-size:19px;
+    margin-top:5px;
+    margin-bottom: 5px;
 }
 td.tbl{
     background-color:#01193d;
@@ -27,17 +33,17 @@ td.tbl{
     border: 2px dashed #30363D;
     width:175px;
     vertical-align: middle;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    transition: background-color 0.75s;
+    padding: 5px 2.5px 5px 2.5px;
+    transition: background-color 0.5s;
 }
 td:hover{
     background-color:#161B22;
 }
 div.footer{
+    font-family: 'Shadows Into Light', cursive;
     background-color: #161b22;
     text-align: center;
-    font-size:17px;
+    font-size:22px;
 }
 td a{
     display:inline-block;
