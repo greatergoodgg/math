@@ -34,6 +34,14 @@ li.nav-item{
     background-color:#8842d5;
     font-size:30px
 }
+li.nav-item2{
+    list-style-type: none;
+    float: left;
+    width:100%;
+    text-align: center;
+    background-color:#8842d5;
+    font-size:30px
+}
 #nav{
     margin:0px;
     padding:0px;
